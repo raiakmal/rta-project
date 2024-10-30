@@ -65,6 +65,8 @@ function loadAsset(assetName) {
 
 // Attach Event Listeners for Asset Buttons
 document.getElementById('addWall').addEventListener('click', () => loadAsset('wall'));
+document.getElementById('addWall2').addEventListener('click', () => loadAsset('wall2'));
+document.getElementById('addWall3').addEventListener('click', () => loadAsset('wall3'));
 document.getElementById('addFloor').addEventListener('click', () => loadAsset('floor'));
 document.getElementById('addRoof').addEventListener('click', () => loadAsset('roof'));
 
